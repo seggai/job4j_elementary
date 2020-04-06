@@ -1,16 +1,36 @@
 package ru.job4j.converter;
 
+/**
+ * Class Converter for currency conversion
+ * @author Yuri Argunov
+ * @since 06.04.2020
+ * @version 1
+ */
 public class Converter {
+    /**
+     * Method rubleToEuro
+     * @param value - count of rubles
+     * @return rsl - count of euro
+     */
     public static int rubleToEuro(int value) {
         int rsl = value / 70;
         return rsl;
     }
 
+    /**
+     * Method rubleToDollar
+     * @param value - count of rubles
+     * @return rsl - count of dollars
+     */
     public static int rubleToDollar(int value) {
-        int rsl = value / 60; // формула перевода рублей в доллоры.
+        int rsl = value / 60;
         return rsl;
     }
 
+    /**
+     * Main
+     * @param args - args
+     */
     public static void main(String[] args) {
         int in = 140;
         int expected = 2;
