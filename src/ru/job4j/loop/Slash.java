@@ -6,7 +6,7 @@ public class Slash {
             for (int cell = 0; cell < size; cell++) {
                 boolean left = (row == cell);
                  boolean right = ((row + cell) % 2 == 0) && (row + cell == size - 1);
-                if (left | right) {
+                if (left || right) {
                     System.out.print("0");
                 } else {
                     System.out.print(" ");
