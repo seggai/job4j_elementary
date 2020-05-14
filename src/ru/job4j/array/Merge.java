@@ -22,7 +22,7 @@ public class Merge {
         int stopRight = 0;
         if ((left.length == 0) || (right.length == 0)) {
            return ifOneIsEmpty(left, right);
-        } else {
+        }
             while (count < rsl.length) {
                 if ((left[i] < right[j]) && (stopLeft == 0)) {
                     rsl[count] = left[i];
@@ -42,7 +42,6 @@ public class Merge {
                     }
                 }
             }
-        }
         return rsl;
     }
 
