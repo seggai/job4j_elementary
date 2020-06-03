@@ -1,6 +1,17 @@
 package ru.job4j.array;
 
+/**
+ * Class Defragment for moving empty cells to the end of array
+ * @author Yuri.Argunov
+ * @version 1
+ * @since 09.04.2020
+ */
 public class Defragment {
+    /**
+     * Method compress for moving empty cells to the end of array
+     * @param array - input array
+     * @return array - completed array
+     */
     public static String[] compress(String[] array) {
         for (int index = 0; index < array.length; index++) {
             if (array[index] == null) {
@@ -17,16 +28,5 @@ public class Defragment {
             System.out.print(array[index] + " ");
         }
         return array;
-    }
-
-
-
-    public static void main(String[] args) {
-        String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
-        String[] compressed = compress(input);
-        System.out.println();
-        for (int index = 0; index < compressed.length; index++) {
-            System.out.print(compressed[index] + " ");
-        }
     }
 }

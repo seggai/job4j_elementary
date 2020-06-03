@@ -1,6 +1,16 @@
 package ru.job4j.array;
 
+/**
+ * Class BarleyBreak for definition of two-dimensional array
+ * @author Yuri.Argunov
+ * @version 1
+ * @since 09.04.2020
+ */
 public class BarleyBreak {
+    /**
+     * Method main for definition of two-dimensional array
+     * @param args args
+     */
     public static void main(String[] args) {
         int[][] array = new int[3][3];
         array[1][1] = 1;
