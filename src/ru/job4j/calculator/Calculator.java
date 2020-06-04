@@ -1,6 +1,16 @@
 package ru.job4j.calculator;
 
+/**
+ * Class Calculator for calculate integer numbers
+ * @author Yuri.Argunov
+ * @version 1
+ * @since 14.03.2020
+ */
 public class Calculator {
+    /**
+     * Method main for calculate integer numbers
+     * @param args args
+     */
     public static void main(String[] args) {
         int one = 1;
         int two = 2;
