@@ -24,5 +24,9 @@ public class ArrayDefinition {
         System.out.println(names[1]);
         System.out.println(names[2]);
         System.out.println(names[3]);
+        System.out.println("Size of array ages is: " + ages.length);
+        System.out.println("Size of array surnames is: " + surnames.length);
+        System.out.println("Size of array pieces is: " + pieces.length);
+        System.out.println("Size of array names is: " + names.length);
     }
 }
